@@ -16,7 +16,7 @@ Projects during my studies
    - tcp
     - simple demo for TCP connection
 ## 4. React-Projects
-  - 01 to 06 Simple projects for some basic REACT
+  - 01 to 06: Simple projects for some basic REACT
   - store-recording: bigger project for a mobile phone store
 ## 5. XML
   - Project for different billings in the Rechneruebung folder
