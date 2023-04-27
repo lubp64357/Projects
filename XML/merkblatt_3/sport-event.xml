@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:sport-events xmlns:p="mein.namensraum"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="mein.namensraum sport-event.xsd ">
+  <!-- p nötig, da ein globales Elemente aus sport-event.xsd
+       muss immer qualifiziert einem Namensraum
+       zugeordnet sein muss -->
+  <city>city</city>
+  <event>
+    <name>name</name>
+    <start>2001-01-01</start>
+  </event>
+</p:sport-events>

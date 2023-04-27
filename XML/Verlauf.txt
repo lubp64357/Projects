@@ -1,0 +1,23 @@
+XML: extendable markup language
+
+ORGANISATORISCHES:
+1. XML Grundlagen(XHTML)
+1.A 
+2. Document Type Definitions(DTB)
+2.A
+3. XML Schema
+3.A
+4. Java Architechtre for XML Binding JAXB(Erzeugen, einlesen)
+4.A
+5. XPath (Datenzugriff)
+5.A
+6. XSLT (XML Stylesheet language transformation)
+6.A
+
+1. Tag vorher sind die Abgaben mit dem ticker im Illias.!!! 
+Vor dem Thema das Merkblatt lesen und verstehen!
+
+Eclipse bevorzugt aber ist es egal. Eclipse JEE JDE
+
+Ziel: XML Syntax fuer Warenrechnungen 
+eclipse ide for java enterprise edition developers 

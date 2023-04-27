@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sport-events xmlns="mein.namensraum"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="mein.namensraum sport-event.xsd">
+  <city>Karlsruhe</city>
+  <event>
+    <name>Badische Meile</name>
+    <code>17</code>
+    <start>2017-05-06</start>    
+  </event>
+</sport-events>

@@ -1,0 +1,7 @@
+<a> <!-- nicht qualifzierter Name -->
+  <b xmlns="http://mein.eigener.namensraum"
+     xmlns:p="http://dein.eigener.namensraum">
+    <p:c/> <!-- explizit voll qualifiziert  -->
+    <c/>   <!-- implizit voll qualifiziert über Standardnamensraum -->
+  </b>
+</a>

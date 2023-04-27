@@ -1,0 +1,50 @@
+<!ELEMENT Rechnungen (Rechnung+)>
+
+<!ELEMENT Rechnung (LeistungsEmpfaenger, Unternehmer, Leistungen, (USNummer | Steuernummer), Ausstellungsdatum, Rechnungsnummer, Entgelt)>
+
+<!ELEMENT USNummer (#PCDATA) >
+<!ELEMENT Ausstellungsdatum (#PCDATA)>
+<!ELEMENT Rechnungsnummer (#PCDATA)>
+
+<!ELEMENT LeistungsEmpfaenger (Anrede, Vorname, Nachname, Postleitzahl, Stadt, Strasse, HausNummer)>
+
+<!ELEMENT Anrede (#PCDATA)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT  Nachname (#PCDATA)>
+<!ELEMENT  Postleitzahl (#PCDATA)>
+<!ELEMENT  Stadt (#PCDATA)>
+<!ELEMENT  Strasse (#PCDATA)>
+<!ELEMENT  HausNummer (#PCDATA)>
+
+<!ELEMENT  Unternehmer (UnternehmensName, Anschrift?, Telefonnummer?, Faxnummer?, E-Mail?)>
+
+<!ELEMENT UnternehmensName (#PCDATA)>
+
+<!ELEMENT Anschrift (Strasse, HausNummer, Postleizahl, Ort)>
+
+<!ELEMENT Telefonnummer (#PCDATA)>
+<!ELEMENT Faxnummer (#PCDATA)>
+<!ELEMENT E-Mail (#PCDATA)>
+<!ELEMENT Steuernummer (#PCDATA)>
+
+
+<!ELEMENT Postleizahl (#PCDATA)>
+<!ELEMENT Ort (#PCDATA)>
+
+<!ELEMENT Leistungen (Leistung*)>
+<!ELEMENT Leistung (Position?, Datum?, Einheit?, Produkt, EinzelPreis?, GesamtPreis, MehrWertSteuer)>
+
+<!ATTLIST Leistung anzahlElemente CDATA #REQUIRED>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Einheit (#PCDATA)>
+<!ELEMENT Datum (#PCDATA)>
+<!ELEMENT Produkt (#PCDATA)>
+<!ELEMENT EinzelPreis (#PCDATA)>
+<!ELEMENT GesamtPreis (#PCDATA)>
+<!ELEMENT MehrWertSteuer (#PCDATA)>
+
+
+<!ELEMENT Entgelt (RechnungsBetrag, NettoBetrag?, MehrwertsteuerGesamt?)>
+<!ELEMENT RechnungsBetrag (#PCDATA)>
+<!ELEMENT NettoBetrag (#PCDATA)>
+<!ELEMENT MehrwertsteuerGesamt (#PCDATA)>

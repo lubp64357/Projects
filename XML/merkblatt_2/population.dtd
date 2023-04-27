@@ -1,0 +1,8 @@
+<!ELEMENT populationdata (continent+) >
+<!ELEMENT continent (name, country*) >
+<!ELEMENT country (name, province*)>
+<!ELEMENT province ((name|code), city*) >
+<!ELEMENT city (name, pop?) >
+<!ELEMENT name (#PCDATA) > 
+<!ELEMENT code (#PCDATA) >
+<!ELEMENT pop (#PCDATA) >

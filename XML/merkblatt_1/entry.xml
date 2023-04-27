@@ -1,0 +1,15 @@
+<entry>
+  <name>
+    <fn>Jean</fn>
+    <ln>Doe</ln>
+  </name>
+  <work>
+    INRIA
+    <adress> <!--  Fehler aus Literatur übernommen -->
+      <city>Cachan</city>
+      <zip>94235</zip>
+    </adress>
+    <email>j@inria.fr</email>
+  </work>
+  <purpose>like to teach</purpose>
+</entry>

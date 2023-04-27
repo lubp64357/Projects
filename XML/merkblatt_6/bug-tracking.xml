@@ -1,0 +1,21 @@
+<bug-tracking>
+  <project name="HAL" version="90.0.0">
+    <defect created="2001-08-15T19:05:10" level="1">
+      <owner>Frank Poole</owner>
+      <description>Increased neurotic system behaviour</description>
+      <status>in progress</status>
+    </defect>
+    <defect created="2001-08-17T08:12:55" level="5">
+      <owner>David Bowman</owner>
+      <description>Malfunctional control of EVA pod</description>
+      <status>open</status>
+    </defect>
+  </project>
+  <project name="Multivac">
+    <defect created="2061-06-30T15:15:15" level="1">
+      <owner>Isaac Asimov</owner>
+      <description>INSUFFICIENT DATA FOR MEANINGFUL ANSWER error</description>
+      <status>open</status>
+    </defect>
+  </project>
+</bug-tracking>

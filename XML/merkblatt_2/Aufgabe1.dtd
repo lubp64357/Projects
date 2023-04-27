@@ -1,0 +1,2 @@
+<!ELEMENT a (b, b, b?, b?) >
+<!ELEMENT b (#PCDATA) >

@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="mein.namensraum"
+           targetNamespace="mein.namensraum">
+  <!-- alle Element und Attribute sind als 
+       nicht qualifiziert (unqualified) definiert (default) -->
+  <xs:element name="sport-events">
+    <xs:complexType>
+       <xs:sequence>
+       <xs:element name="city" type="xs:string" />
+       <xs:element name="event" type="event-type" maxOccurs="unbounded"/>
+     </xs:sequence>
+     <xs:attribute name="version" type="xs:decimal"
+                   use="optional" default="1.0"/>
+   </xs:complexType>
+  </xs:element>
+  <xs:complexType name="event-type">
+    <xs:all>
+      <xs:element name="name" type="xs:normalizedString"/>
+      <xs:element name="start" type="xs:date"/>
+      <xs:element name="code" type="xs:int" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

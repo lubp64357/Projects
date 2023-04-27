@@ -1,0 +1,12 @@
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a   rowspawn     CDATA     "1"
+              http-equiv  CDATA     #IMPLIED
+              id          ID        #REQUIRED
+              valign      (top|middle|bottom|baseline) "top" 
+              available   CDATA     #FIXED  "true">
+]>
+<a rowspawn="17" id="z5" valign="baseline" available="true"/>
+<!-- 
+<a id="z5"/>
+-->

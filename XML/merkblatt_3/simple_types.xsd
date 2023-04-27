@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         targetNamespace="http://www.example.org/simple_types"
+         xmlns:tns="http://www.example.org/simple_types">
+
+
+<xs:simpleType name="customer-id2">
+  <xs:restriction base="xs:string">
+     <xs:length value="10"/>
+     <xs:pattern value="[A-Z][0-9]+"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="country-code">
+  <xs:restriction base="xs:string">
+     <xs:enumeration value="DE"/>
+     <xs:enumeration value="UK"/>
+     <xs:enumeration value="FR"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="internationalPrice">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="currency" type="xs:string"/>
+        <xs:attribute name="value"    type="xs:decimal"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

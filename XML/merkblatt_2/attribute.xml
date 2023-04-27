@@ -1,0 +1,8 @@
+<!DOCTYPE a [
+  <!ELEMENT a (#PCDATA |  b | c)* >
+  <!ELEMENT b (#PCDATA) > 
+  <!ELEMENT c (#PCDATA) > 
+]>
+<a>
+  Mixed<b/>Content<c/><c/>
+</a>

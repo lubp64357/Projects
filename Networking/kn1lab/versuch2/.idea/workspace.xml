@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f2c46de-78f2-4dd3-ac97-80414ab22366" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../versuch1/src/Receive_Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../versuch1/src/Receive_Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../versuch1/src/Send_Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../versuch1/src/Send_Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sender.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2OYLnBtTqedoGP4verVOGqB9PBG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sender" />
+      <module name="versuch2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f2c46de-78f2-4dd3-ac97-80414ab22366" name="Default Changelist" comment="" />
+      <created>1681732733305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681732733305</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1352" height="202" key="GridCell.Tab.0.bottom" timestamp="1682342511006">
+      <screen x="0" y="31" width="1440" height="820" />
+    </state>
+    <state width="1352" height="202" key="GridCell.Tab.0.bottom/0.31.1440.820@0.31.1440.820" timestamp="1682342511006" />
+    <state width="1352" height="202" key="GridCell.Tab.0.center" timestamp="1682342511006">
+      <screen x="0" y="31" width="1440" height="820" />
+    </state>
+    <state width="1352" height="202" key="GridCell.Tab.0.center/0.31.1440.820@0.31.1440.820" timestamp="1682342511006" />
+    <state width="1352" height="202" key="GridCell.Tab.0.left" timestamp="1682342511005">
+      <screen x="0" y="31" width="1440" height="820" />
+    </state>
+    <state width="1352" height="202" key="GridCell.Tab.0.left/0.31.1440.820@0.31.1440.820" timestamp="1682342511005" />
+    <state width="1352" height="202" key="GridCell.Tab.0.right" timestamp="1682342511006">
+      <screen x="0" y="31" width="1440" height="820" />
+    </state>
+    <state width="1352" height="202" key="GridCell.Tab.0.right/0.31.1440.820@0.31.1440.820" timestamp="1682342511006" />
+    <state x="380" y="172" width="672" height="678" key="search.everywhere.popup" timestamp="1682252683702">
+      <screen x="0" y="31" width="1440" height="820" />
+    </state>
+    <state x="380" y="172" width="672" height="678" key="search.everywhere.popup/0.31.1440.820@0.31.1440.820" timestamp="1682252683702" />
+  </component>
+</project>

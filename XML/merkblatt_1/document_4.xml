@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<!-- a comment -->
+	<salutation color="blue">
+		Hello World!
+	</salutation>
+	<salutation color="red">
+    <![CDATA[<Hello Moon>!]]>
+	</salutation>
+</document>

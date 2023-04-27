@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "fuse.h": "c",
+        "wrap.h": "c",
+        "hash_map": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp",
+        "iomanip": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "ratio": "cpp",
+        "hash_set": "cpp",
+        "chrono": "cpp"
+    },
+    "cmake.debugConfig": {
+        "cwd": "/home/marvin/.fuse_file_system",
+        "args": [
+            "mount",
+            "-l",
+            "log.txt",
+            "-f",
+            "-c",
+            "container.bin"
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Rechnungen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="rechnung.xsd">
+	<Rechnung >
+	
+		<LeistungsEmpfaenger>
+			<Anrede>Dr. med</Anrede>
+			<Vorname>Cyprian</Vorname>
+			<Nachname>Zottel</Nachname>
+			<Postleitzahl>13023</Postleitzahl>
+			<Stadt>Zotenheim</Stadt>
+			<Strasse>Soddelstruddel</Strasse>
+			<HausNummer>5a</HausNummer>
+		</LeistungsEmpfaenger>
+		
+		<Unternehmer>
+			<UnternehmensName>Rochade</UnternehmensName>
+		</Unternehmer>
+		
+		<Leistungen>
+		
+			<Leistung anzahlElemente = "3">
+				<Einheit>Packungen</Einheit>
+				<Produkt>Grippemittel"Tumifla"</Produkt>
+				<EinzelPreis>120.00</EinzelPreis>
+				<GesamtPreis>360.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "0">
+				
+				<Produkt>Beratung pauschal</Produkt>
+				
+				<GesamtPreis>50.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "2">
+				<Einheit>2 Liter</Einheit>
+				<Produkt>Abführmittel"Wech damit" pro Liter</Produkt>
+				<EinzelPreis>99.99</EinzelPreis>
+				<GesamtPreis>199.98</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "2">
+				<Einheit>2 Stück</Einheit>
+				<Produkt>Energieriegel "Satto"</Produkt>
+				<EinzelPreis>5.98</EinzelPreis>
+				<GesamtPreis>11.96</GesamtPreis>
+				<MehrWertSteuer>7</MehrWertSteuer>
+			</Leistung>
+		
+		</Leistungen>
+		
+		<USNummer>DE333666999</USNummer>	
+		<Ausstellungsdatum>2017-08-08</Ausstellungsdatum>
+		<Rechnungsnummer>98-798-7987</Rechnungsnummer>
+		
+		
+		<Entgelt>
+			<RechnungsBetrag>621.94</RechnungsBetrag>
+			<NettoBetrag>490.22</NettoBetrag>
+			<MehrwertsteuerGesamt>116.74</MehrwertsteuerGesamt>
+		</Entgelt>
+		
+		<Zahlungsmoegligkeiten>
+			<IBAN>DE166605010110077889911</IBAN>
+			<BIC>DEUTDE6F683</BIC>
+		
+		</Zahlungsmoegligkeiten>
+		
+	</Rechnung>
+	
+	<Rechnung>
+		<LeistungsEmpfaenger>
+			<Anrede>Frau</Anrede>
+			<Vorname>Sybille</Vorname>
+			<Nachname>Sonder-Suttelrau</Nachname>
+			<Postleitzahl>77070</Postleitzahl>
+			<Stadt>Siedelsuderstadt</Stadt>
+			<Strasse>Am Suettelbach 17</Strasse>
+			<HausNummer>17</HausNummer>
+		</LeistungsEmpfaenger>
+		
+		<Unternehmer>
+			<UnternehmensName>Kleintier Meier GmbH</UnternehmensName>
+			<Anschrift>
+				<Strasse>Meierring</Strasse>
+				<HausNummer>3</HausNummer>
+				<Postleizahl>81828</Postleizahl>
+				<Ort>Machthausen</Ort>
+			</Anschrift>
+			<Telefonnummer>0777987987</Telefonnummer>
+			<Faxnummer>0777987987</Faxnummer>
+			<E-Mail>klein.meier@tiere.de</E-Mail>
+			
+		</Unternehmer>
+		
+		<Leistungen>
+		
+			<Leistung anzahlElemente = "100">
+				<Position>1</Position>
+				<Datum>2017-01-01</Datum>
+				<Produkt>Antike Holzwuermer</Produkt>
+				<EinzelPreis>1.50</EinzelPreis>
+				<GesamtPreis>150.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Position>2</Position>
+				<Datum>2017-01-12</Datum>
+				<Produkt>Holzwurmfutter</Produkt>
+				
+				<GesamtPreis>50.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Position>3</Position>
+				<Datum>2017-01-12</Datum>
+				<Produkt>Steinlaus, Petrophaga Iorioti</Produkt>
+				<EinzelPreis>99.99</EinzelPreis>
+				<GesamtPreis>199.98</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			
+		
+		</Leistungen>
+		
+		<Steuernummer>88 123/8282 2</Steuernummer>
+		<Ausstellungsdatum>2017-01-15</Ausstellungsdatum>
+		<Rechnungsnummer>657321</Rechnungsnummer>
+		
+		<Entgelt>
+			<RechnungsBetrag>808/59</RechnungsBetrag>
+			<NettoBetrag>153.63</NettoBetrag>
+			<MehrwertsteuerGesamt>962.22</MehrwertsteuerGesamt>
+		</Entgelt>
+		
+		<Zahlungsmoegligkeiten>
+			
+			<BLZ>660550101</BLZ>
+			<Kontonummer>98123213</Kontonummer>
+		
+		</Zahlungsmoegligkeiten>
+		
+		
+	</Rechnung>
+	
+	<Rechnung>
+	
+	<LeistungsEmpfaenger>
+			<Anrede>Familie</Anrede>
+			<Vorname></Vorname>
+			<Nachname>Urmel</Nachname>
+			<Postleitzahl>43210</Postleitzahl>
+			<Stadt>Ultursingen</Stadt>
+			<Strasse>Ultryrenstrasse</Strasse>
+			<HausNummer>784</HausNummer>
+		</LeistungsEmpfaenger>
+		
+		<Unternehmer>
+			<UnternehmensName>Bestattungen Unterberg</UnternehmensName>
+			<Anschrift>
+				<Strasse>Oberbergweg</Strasse>
+				<HausNummer>5</HausNummer>
+				<Postleizahl>43210</Postleizahl>
+				<Ort>Machthausen</Ort>
+			</Anschrift>
+			<Telefonnummer>0478777555</Telefonnummer>
+			<Faxnummer></Faxnummer>
+			<E-Mail>unter@berg.de</E-Mail>
+			
+		</Unternehmer>
+		
+		<Leistungen>
+		
+			<Leistung anzahlElemente = "1">
+				<Produkt>Urne, Eiche massiv</Produkt>
+				<GesamtPreis>299.99</GesamtPreis>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Produkt>Ueberfuerung Keramotorium Feuerbach inkl. Begleitpersonal</Produkt>
+				<GesamtPreis>349.00</GesamtPreis>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Produkt>Dekoration</Produkt>
+				<GesamtPreis>149.50</GesamtPreis>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "40">
+				<Produkt>Trauerkarten inkl. Briefmarken</Produkt>
+				<EinzelPreis>2.00</EinzelPreis>
+				<GesamtPreis>80</GesamtPreis>
+			</Leistung>
+			
+		
+		</Leistungen>
+		
+		<USNummer>DE 987654321</USNummer>
+		<Ausstellungsdatum>2017-10-19</Ausstellungsdatum>
+		<Rechnungsnummer>893 213 11</Rechnungsnummer>
+		
+		<Entgelt>
+			<RechnungsBetrag>738.23</RechnungsBetrag>
+			<NettoBetrag>140.26</NettoBetrag>
+			<MehrwertsteuerGesamt>878.49</MehrwertsteuerGesamt>
+		</Entgelt>
+	
+	<Zahlungsmoegligkeiten>
+			<IBAN>DE166605010110077889911</IBAN>
+			<BIC>UBSWCHZH80H</BIC>
+			<Kontonummer>75847683</Kontonummer>
+			<BitcoinAdresse>1adsaODdaskdma2dasdma</BitcoinAdresse>
+		</Zahlungsmoegligkeiten>
+	</Rechnung>
+	
+	
+</Rechnungen>

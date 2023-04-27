@@ -1,0 +1,14 @@
+<!DOCTYPE populationdata [
+  <!ELEMENT populationdata (continent+) >
+  <!ELEMENT continent (name | country*) >
+  <!ELEMENT name (#PCDATA) >
+  
+  <!ELEMENT country (#PCDATA)> 
+]>
+<populationdata>
+  <continent>
+  	
+    <country>Deutschland</country>
+    <country>Frankreich</country>
+  </continent>
+</populationdata>

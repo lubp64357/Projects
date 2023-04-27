@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Rechnungen SYSTEM "rechnungen.dtd">
+<Rechnungen>
+	<Rechnung>
+	
+		<LeistungsEmpfaenger>
+			<Anrede>Dr. med</Anrede>
+			<Vorname>Cyprian</Vorname>
+			<Nachname>Zottel</Nachname>
+			<Postleitzahl>13023</Postleitzahl>
+			<Stadt>Zotenheim</Stadt>
+			<Strasse>Soddelstruddel</Strasse>
+			<HausNummer>5a</HausNummer>
+		</LeistungsEmpfaenger>
+		
+		<Unternehmer>
+			<UnternehmensName>Rochade</UnternehmensName>
+		</Unternehmer>
+		
+		<Leistungen>
+		
+			<Leistung anzahlElemente = "3">
+				<Einheit>Packungen</Einheit>
+				<Produkt>Grippemittel"Tumifla"</Produkt>
+				<EinzelPreis>120.00</EinzelPreis>
+				<GesamtPreis>360.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "0">
+				
+				<Produkt>Beratung pauschal</Produkt>
+				
+				<GesamtPreis>50.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "2">
+				<Einheit>2 Liter</Einheit>
+				<Produkt>Abführmittel"Wech damit" pro Liter</Produkt>
+				<EinzelPreis>99.99</EinzelPreis>
+				<GesamtPreis>199.98</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "2">
+				<Einheit>2 Stück</Einheit>
+				<Produkt>Energieriegel "Satto"</Produkt>
+				<EinzelPreis>5.98</EinzelPreis>
+				<GesamtPreis>11.96</GesamtPreis>
+				<MehrWertSteuer>7</MehrWertSteuer>
+			</Leistung>
+		
+		</Leistungen>
+		
+		<USNummer>DE333666999</USNummer>	
+		<Ausstellungsdatum>2017-08-08</Ausstellungsdatum>
+		<Rechnungsnummer>98-798-7987</Rechnungsnummer>
+		
+		
+		<Entgelt>
+			<RechnungsBetrag>621.94</RechnungsBetrag>
+			<NettoBetrag>490.22</NettoBetrag>
+			<MehrwertsteuerGesamt>116.74</MehrwertsteuerGesamt>
+		</Entgelt>
+		
+	</Rechnung>
+	
+	<Rechnung>
+		<LeistungsEmpfaenger>
+			<Anrede>Frau</Anrede>
+			<Vorname>Sybille</Vorname>
+			<Nachname>Sonder-Suttelrau</Nachname>
+			<Postleitzahl>77070</Postleitzahl>
+			<Stadt>Siedelsuderstadt</Stadt>
+			<Strasse>Am Suettelbach 17</Strasse>
+			<HausNummer>17</HausNummer>
+		</LeistungsEmpfaenger>
+		
+		<Unternehmer>
+			<UnternehmensName>Kleintier Meier GmbH</UnternehmensName>
+			<Anschrift>
+				<Strasse>Meierring</Strasse>
+				<HausNummer>3</HausNummer>
+				<Postleizahl>81828</Postleizahl>
+				<Ort>Machthausen</Ort>
+			</Anschrift>
+			<Telefonnummer>0777987987</Telefonnummer>
+			<Faxnummer>0777987987</Faxnummer>
+			<E-Mail>klein.meier@tiere.de</E-Mail>
+			
+		</Unternehmer>
+		
+		<Leistungen>
+		
+			<Leistung anzahlElemente = "100">
+				<Position>1</Position>
+				<Datum>2017-01-01</Datum>
+				<Produkt>Antike Holzwuermer</Produkt>
+				<EinzelPreis>1.50</EinzelPreis>
+				<GesamtPreis>150.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Position>2</Position>
+				<Datum>2017-01-12</Datum>
+				<Produkt>Holzwurmfutter</Produkt>
+				
+				<GesamtPreis>50.00</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			<Leistung anzahlElemente = "1">
+				<Position>3</Position>
+				<Datum>2017-01-12</Datum>
+				<Produkt>Steinlaus, Petrophaga Iorioti</Produkt>
+				<EinzelPreis>99.99</EinzelPreis>
+				<GesamtPreis>199.98</GesamtPreis>
+				<MehrWertSteuer>19</MehrWertSteuer>
+			</Leistung>
+			
+			
+		
+		</Leistungen>
+		
+		<Steuernummer>88 123/8282 2</Steuernummer>
+		<Ausstellungsdatum>2017-01-15</Ausstellungsdatum>
+		<Rechnungsnummer>657321</Rechnungsnummer>
+		
+		<Entgelt>
+			<RechnungsBetrag>808/59</RechnungsBetrag>
+			<NettoBetrag>153.63</NettoBetrag>
+			<MehrwertsteuerGesamt>962.22</MehrwertsteuerGesamt>
+		</Entgelt>
+		
+	</Rechnung>
+	
+</Rechnungen>

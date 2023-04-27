@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<movies>
+  <movie lang="en">
+    <title>Die Hard</title>
+    <rating>3</rating>
+  </movie>
+  <movie>
+    <title>Terminator</title>
+    <rating>2</rating>
+  </movie>
+</movies>
+<!-- Show View -> Other -> XPath
+/movies/movie/title/text()
+/movies/movie/*
+/movies/@*
+/movies/*/@lang
+/.
+
+/movies/movie[rating/text() > 2]
+ -->
